@@ -97,7 +97,8 @@ console.log(isANumber);
 */
 
 let numero = 9;
-isEvenOrOdd = numero % 2 ? "Pari" : "Dispari";
+module = numero % 2;
+isEvenOrOdd = numero === 0 ? "Pari" : "Dispari";
 console.log(isEvenOrOdd);
 
 /* ESERCIZIO 10
