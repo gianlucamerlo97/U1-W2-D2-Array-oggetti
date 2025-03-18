@@ -112,7 +112,7 @@ console.log(isEvenOrOdd);
     }
 */
 
-let val = NaN;
+let val = 7;
 if (val < 10) {
   console.log("Meno di 10");
 } else if (val < 5) {
